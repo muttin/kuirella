@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    /*background-color: pink;*/
+    font-family: "Georgia";
+
+}
+
+
+.container {
+    position: absolute;
+    top: 15%;
+    height: auto;
+    left: 20%;
+    right: 15%;
+    min-width: 350px;
+    padding: 10px;
+
+
+}
+.article {
+    position: absolute;
+    width: 100%;
+}
+p {
+    letter-spacing: 1.3px;
+    font-size: 1.25em;
+    word-wrap: break-word;
+}
+
+
+::selection {
+    background: palevioletred;
+    color: white;
+}
